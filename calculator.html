@@ -1,0 +1,32 @@
+<DOCTYTE html>
+<html class="mywork" lang="en">
+      
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <link rel="stylesheet" type="text/css" href="calculator.css">
+          <script src="calculator.js"> </script>
+    <head>
+        <title> calculator project </title>
+    </head>
+    <body>
+        <h1> CALCULATOR </h1>
+        <label> Name : </label>
+        <input class="nameInput" id="yourName"type="text" placeholder="please enter your name">
+        <button class="okbtn"onclick="Me()"> OK!</button>
+        <br><br>
+        <div class="myBody">
+        <h2 id="showName"></h2>
+       <input class="numberInput" id="input1" type="number" placeholder="0">
+       <input class="numberInput" id="input2" type="number" placeholder="0">
+    <br> <br>
+    
+       <button class="btn" onclick="add()"> + </button>
+       <button class="btn" onclick="subtract()"> - </button>
+       <button class="btn" onclick="multiply()"> x </button>
+       <button class="btn" onclick="divide()"> / </button>
+
+    <h1 class="Theanswer" id="answer"> </h1>
+        </div>
+    </body>
+</html>
